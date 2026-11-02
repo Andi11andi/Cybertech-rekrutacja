@@ -17,4 +17,13 @@ Szczegółowy opis eksperymentu, kod oraz wyniki znajdują się w pliku `Cyber_r
 
 Zadanie obejmuje dostrojenie modelu językowego z wykorzystaniem techniki LoRA oraz ocenę jakości odpowiedzi przed i po fine-tuningu.
 
-Szczegółowy opis, implementacja i wyniki zostaną przedstawione w osobnym notebooku.
+- Model: `Qwen/Qwen3.5-2B`
+- Dataset: `medalpaca/medical_meadow_wikidoc_patient_information`
+- Framework: MS Swift
+- Metoda dostrajania: LoRA
+- Środowisko: Kaggle Notebook
+- GPU: NVIDIA Tesla T4
+
+Model został oceniony na tym samym zbiorze testowym przed i po dostrojeniu. Do porównania wykorzystano metryki ROUGE-1, ROUGE-2, ROUGE-L, BLEU oraz średnią długość generowanych odpowiedzi.
+
+Szczegółowy opis eksperymentu, implementacja, analiza wyników oraz przykłady odpowiedzi znajdują się w pliku `Cyber_rek_Zadanie2.ipynb`.
